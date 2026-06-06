@@ -1,0 +1,14 @@
+import { Persona } from "./clases/Persona.js";
+import { Profesor } from "./clases/Profesor.js";
+import { Alumno } from "./clases/Alumno.js";
+const persona = new Persona(1, "Leonardo", "Ramos", "10/02/1992", "96265577");
+console.log(persona);
+persona.presentarse();
+console.log("----------------");
+const profesor = new Profesor(2, "Luis", "Leal", "15/08/1980", "22222222", "Programación Backend");
+console.log(profesor);
+profesor.presentarse();
+console.log("----------------");
+const alumno = new Alumno(3, "Leo", "Ramos", "20/10/2005", "96265577", "Desarrollo de Software Full Stack");
+console.log(alumno);
+alumno.presentarse();

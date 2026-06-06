@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./public",
+    "module": "ESNext",
+    "target": "ESNext",
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+}
